@@ -11,23 +11,6 @@ marks_geography = []
 marks_ICT = []
 marks_economics = []
 marks_business = []
-marks_digital_society_HL = [] 
-marks_digital_society_SL = [] 
-marks_computer_science_HL = []
-marks_computer_science_SL = []
-marks_Math_AA_HL = [] 
-marks_Math_AA_SL = []
-marks_Math_AI_HL = [] 
-marks_Math_AI_SL = []
-marks_business_HL = [] 
-marks_business_SL = [] 
-marks_economics_HL = [] 
-marks_economics_SL = []
-marks_physics_HL = []
-marks_physics_SL = []
-marks_chemistry_HL = []
-marks_chemistry_SL = []
-
 answer = input('''Welcome to student performance manager. Please select between the numbers to let us know what you want to do:
 1-menu
 2-Exit
@@ -165,4 +148,5 @@ Enter: ''')
         print(average)
 
     elif answer == "5" or answer.lower() == "exit":
+
         pass
